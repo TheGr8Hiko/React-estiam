@@ -43,7 +43,7 @@
 
         return (
             <li>
-                nom:{props.student.name} - moyenne:
+                nom: {props.student.name} - moyenne:
                 {
                     props.student.notes.reduce((presvious, next) => presvious+next, 0)/props.student.notes.length
                 }
