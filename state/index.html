@@ -21,6 +21,7 @@
         const Time = () => {
             const [timer, setTimer] = React.useState(new Date());
             setTimeout(() => setTimer(new Date()), 1000);
+            //setInterval(() => setTimer(new Date()), 1000);
             return (
                 <div>
                     {timer.getHours()}h&nbsp;
